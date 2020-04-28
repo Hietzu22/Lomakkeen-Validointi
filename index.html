@@ -9,11 +9,11 @@
 <body>
     <h1>Registeration form</h1>
     <div id="Lomake">
-    <input type="text" class="input" id="username" placeholder="Username"><br>
-    <input type="password" class="input" id="password" placeholder="Password"><br>
-    <input type="text" class="input" id="name" placeholder="Name"><br>
-    <input type="text" class="input" id="address" placeholder="Address"><br>
-    <select id="country" class="input" name="country">
+    <input type="text" class="input" id="username" placeholder="Username" required><br>
+    <input type="password" class="input" id="password" placeholder="Password"required><br>
+    <input type="text" class="input" id="name" placeholder="Name"required><br>
+    <input type="text" class="input" id="address" placeholder="Address"required><br>
+    <select id="country" class="input" name="country" required >
     <option value="Select">[Select Country]</option>
     <option value="AF">Afghanistan</option>
 	<option value="AX">Åland Islands</option>
@@ -265,8 +265,8 @@
 	<option value="ZM">Zambia</option>
 	<option value="ZW">Zimbabwe</option>
     </select><br>
-    <input type="number" class="input" id="zipcode" placeholder="Zipcode"><br>
-    <input type="email" class="input" id="email" placeholder="Email"><br>
+    <input type="number" class="input" id="zipcode" placeholder="Zipcode" required><br>
+    <input type="email" class="input" id="email" placeholder="Email" required><br>
     <div>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
