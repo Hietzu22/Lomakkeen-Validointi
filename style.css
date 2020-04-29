@@ -8,6 +8,10 @@ body h1 {
     margin: 2px;
 }
 
+.error{
+    color: red;
+}
+
 #country {
     width: 258px;
 }
